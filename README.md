@@ -12,3 +12,5 @@ After installing and enabling the plugin, you should see a new option button nex
 [Video Preview](https://raw.githubusercontent.com/Sch1nken/ChromaGD/refs/heads/main/github_images/video_preview.mp4)
 
 To change the simulation mode in-game the plugin automatically adds a new global autoload scene for you. You can toggle the mode in-game by pressing F4 (currently hardcoded). The current mode will be displayed in the top right corner.
+
+**NOTE:** It should also be possible to do stuff like split-screen of normal view and simulation view. I'll maybe add it sometime later :)
