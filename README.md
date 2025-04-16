@@ -9,7 +9,9 @@ After installing and enabling the plugin, you should see a new option button nex
 
 ![Editor Screenshot](https://raw.githubusercontent.com/Sch1nken/ChromaGD/refs/heads/main/github_images/editor_screenshot.png)
 
-https://raw.githubusercontent.com/Sch1nken/ChromaGD/refs/heads/main/github_images/video_preview.mp4
+
+https://github.com/user-attachments/assets/40df9be6-534a-4fb0-baa0-9538f1f02583
+
 
 To change the simulation mode in-game the plugin automatically adds a new global autoload scene for you. You can toggle the mode in-game by pressing **F4** (currently hardcoded). The current mode will be displayed in the top right corner.
 
