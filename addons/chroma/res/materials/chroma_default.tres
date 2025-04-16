@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://bgkd3fui1civr"]
+
+[ext_resource type="Shader" uid="uid://c7j6fdllhru5l" path="res://addons/chroma/res/shader/default.gdshader" id="1_bjso7"]
+
+[resource]
+shader = ExtResource("1_bjso7")

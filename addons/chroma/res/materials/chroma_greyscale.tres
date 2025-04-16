@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://d28635tv6esxa"]
+
+[ext_resource type="Shader" uid="uid://li3lkr2nx3iy" path="res://addons/chroma/res/shader/greyscale.gdshader" id="1_sxkhw"]
+
+[resource]
+shader = ExtResource("1_sxkhw")

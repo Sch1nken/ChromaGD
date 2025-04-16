@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://xeexcf6m2745"]
+
+[ext_resource type="Shader" uid="uid://deqv6wfnv5c6a" path="res://addons/chroma/res/shader/tritanopia.gdshader" id="1_v3hw3"]
+
+[resource]
+shader = ExtResource("1_v3hw3")

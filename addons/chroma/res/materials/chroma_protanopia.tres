@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://gw4ax7hdyhm7"]
+
+[ext_resource type="Shader" uid="uid://cf130b2dyfp20" path="res://addons/chroma/res/shader/protanopia.gdshader" id="1_dinjk"]
+
+[resource]
+shader = ExtResource("1_dinjk")

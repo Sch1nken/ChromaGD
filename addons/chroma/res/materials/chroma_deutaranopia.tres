@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dohxjcleadg8e"]
+
+[ext_resource type="Shader" uid="uid://cmlepfac43ufg" path="res://addons/chroma/res/shader/deuteranopia.gdshader" id="1_5rx2m"]
+
+[resource]
+shader = ExtResource("1_5rx2m")

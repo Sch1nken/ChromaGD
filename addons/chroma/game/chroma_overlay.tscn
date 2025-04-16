@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3 uid="uid://du27e30ngsuvo"]
+
+[ext_resource type="Shader" uid="uid://c7j6fdllhru5l" path="res://addons/chroma/res/shader/default.gdshader" id="1_ybely"]
+[ext_resource type="Script" uid="uid://bhq3oas7yxtlh" path="res://Scenes/TestBed/chroma.gd" id="2_r81jy"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6581v"]
+shader = ExtResource("1_ybely")
+
+[node name="Chroma" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = 999
+z_as_relative = false
+material = SubResource("ShaderMaterial_6581v")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("2_r81jy")
+
+[node name="ModePanel" type="PanelContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 40.0
+grow_horizontal = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect/ModePanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="ModeLabel" type="Label" parent="ColorRect/ModePanel/MarginContainer"]
+layout_mode = 2
+text = "MODE"
