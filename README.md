@@ -7,6 +7,6 @@ The shader code has been adapted from HLSL to Godot (~GLSL) from this recently o
 
 After installing and enabling the plugin, you should see a new option button next in the top right corner of the editor. This allows you to change the simulation mode for the 2D and 3D viewports.
 
-![Editor Screenshot](https://github.com/Sch1nken/ChromaGD/github_images/editor_screenshot.png)
+[![Editor Screenshot](https://raw.githubusercontent.com/Sch1nken/ChromaGD/refs/heads/main/github_images/editor_screenshot.png)
 
 To change the simulation mode in-game the plugin automatically adds a new global autoload scene for you. You can toggle the mode in-game by pressing F4 (currently hardcoded). The current mode will be displayed in the top right corner.
