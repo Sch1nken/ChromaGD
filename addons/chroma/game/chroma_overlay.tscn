@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://du27e30ngsuvo"]
 
 [ext_resource type="Shader" uid="uid://c7j6fdllhru5l" path="res://addons/chroma/res/shader/default.gdshader" id="1_ybely"]
-[ext_resource type="Script" uid="uid://bhq3oas7yxtlh" path="res://Scenes/TestBed/chroma.gd" id="2_r81jy"]
+[ext_resource type="Script" uid="uid://bhq3oas7yxtlh" path="res://addons/chroma/game/chroma_overlay.gd" id="2_r81jy"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6581v"]
 shader = ExtResource("1_ybely")
